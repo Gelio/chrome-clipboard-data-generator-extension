@@ -1,0 +1,22 @@
+{
+  "name": "chrome-data-generator-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gelio/chrome-clipboard-data-generator-extension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gelio/chrome-data-clipboard-generator-extension/issues"
+  },
+  "homepage": "https://github.com/Gelio/chrome-data-clipboard-generator-extension#readme",
+  "devDependencies": {
+    "@types/chrome": "0.0.77"
+  }
+}

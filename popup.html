@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+
+      html {
+        width: 300px;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 100%;
+        padding: 0 10px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0.5em 0;
+      }
+
+      .generators {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin: auto;
+      }
+
+      .generator:not(:last-child) {
+        margin-bottom: 5px;
+      }
+
+      .last-copied-value__container {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Clipboard data generator</h1>
+
+    <p>
+      Click a button below and a generated value value will be copied to your
+      clipboard.
+    </p>
+
+    <div class="last-copied-value__container">
+      <h3>Last copied value</h3>
+      <span id="last-copied-value">Nothing has been copied yet</span>
+    </div>
+
+    <div class="generators">
+      <button class="generator" id="generate-ipv4">Random IPv4</button>
+      <button class="generator" id="generate-ipv6">Random IPv6</button>
+      <button class="generator" id="generate-cidr-ipv4">
+        Random CIDR IPv4
+      </button>
+      <button class="generator" id="generate-cidr-ipv6">
+        Random CIDR IPv6
+      </button>
+      <button class="generator" id="generate-timestamp">
+        Current timestamp
+      </button>
+      <button class="generator" id="generate-date">Current date</button>
+      <button class="generator" id="generate-time-and-date">
+        Current time and date
+      </button>
+    </div>
+
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>
