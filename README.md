@@ -1,4 +1,6 @@
-# Chrome clipboard data generator
+# Chrome clipboard data generator extension
+
+![Clipboard data generator extension](./screenshots/popup.png)
 
 A handy extension that fills the clipboard with an automatically generated value, e.g.:
 
