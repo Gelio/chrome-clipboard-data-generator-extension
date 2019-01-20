@@ -21,12 +21,16 @@ npm install
 
 ## Deployment
 
-Create a ZIP file with all the necessary extension files:
+Run
 
-- source files
-- `manifest.json`
+```sh
+npm run build
+```
 
-and upload it to Google Web Store.
+This command will pack all the necessary extension files in
+`chrome-clipboard-data-generator-extension.zip`.
+
+Upload this file to Google Web Store to update the extension.
 
 ## Author
 

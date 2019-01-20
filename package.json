@@ -4,7 +4,7 @@
   "description": "A handy data generator that fills the clipboard",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "zip "
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Gelio/chrome-data-clipboard-generator-extension#readme",
   "devDependencies": {
-    "@types/chrome": "0.0.77"
+    "@types/chrome": "0.0.77",
+    "glob": "^7.1.3",
+    "node-zip": "^1.1.1"
   }
 }

@@ -80,5 +80,5 @@ typings/
 .dynamodb/
 
 
-# Built extension zips
-*.zip
+# Built extension zip
+chrome-clipboard-data-generator-extension.zip
