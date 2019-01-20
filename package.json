@@ -1,10 +1,10 @@
 {
-  "name": "chrome-data-generator-extension",
-  "version": "1.0.0",
-  "description": "",
-  "main": "background.js",
+  "name": "chrome-clipboard-data-generator-extension",
+  "version": "0.0.1",
+  "description": "A handy data generator that fills the clipboard",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "zip "
   },
   "repository": {
     "type": "git",

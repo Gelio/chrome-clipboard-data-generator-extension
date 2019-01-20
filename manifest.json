@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Random data generator",
+  "name": "Clipboard data generator",
   "version": "0.0.0.1",
-  "description": "A handy random data generator",
+  "description": "A handy data generator that fills the clipboard",
   "browser_action": {
     "default_popup": "popup.html"
   },
