@@ -7,3 +7,27 @@ A handy extension that fills the clipboard with an automatically generated value
 - the current timestamp
 - the current date
 - the current time and date
+
+## Development
+
+There is no build step for the app. This directory can be selected as the extension's root.
+
+To improve the editing experience and add some typings for the Chrome Extension API, run the
+following command:
+
+```sh
+npm install
+```
+
+## Deployment
+
+Create a ZIP file with all the necessary extension files:
+
+- source files
+- `manifest.json`
+
+and upload it to Google Web Store.
+
+## Author
+
+[Grzegorz Rozdzialik](http://github.com/Gelio) is the author of this extension.
