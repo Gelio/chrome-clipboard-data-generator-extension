@@ -2,6 +2,8 @@
 
 ![Clipboard data generator extension](./screenshots/popup.png)
 
+[Install using Chrome Web Store](https://chrome.google.com/webstore/detail/clipboard-data-generator/jeakkdmlghlpbadeigbfebhioefcglef)
+
 A handy extension that fills the clipboard with an automatically generated value, e.g.:
 
 - a random IP (v4 and v6)
