@@ -1,11 +1,9 @@
-import { generateNumber } from './generate-number.js';
-
-const maxIPv6SegmentValue = 65535;
+import { generateHex } from './generate-hex.js';
 
 export function generateIPv6() {
   const parts = Array(8)
     .fill('')
-    .map(() => generateNumber(0, maxIPv6SegmentValue).toString(16));
+    .map(() => generateHex(4));
 
   return parts.join(':');
 }
