@@ -8,6 +8,7 @@ A handy extension that fills the clipboard with an automatically generated value
 
 - a random IP (v4 and v6)
 - a random CIDR (v4 and v6)
+- a random MAC address
 - the current timestamp
 - the current date
 - the current time and date
@@ -26,6 +27,12 @@ npm install
 ## Deployment
 
 Run
+
+```sh
+npm install
+```
+
+to install all the dependencies necessary for building the ZIP archive. Next, execute
 
 ```sh
 npm run build
