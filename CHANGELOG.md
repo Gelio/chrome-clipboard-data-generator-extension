@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.3 (1/21/2019)
+
+- fix error when generating some hex values
+
 ## 0.0.2 (1/21/2019)
 
 - add support for generating MAC addresses

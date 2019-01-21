@@ -24,7 +24,7 @@ function leftPad(value, desiredLength, character = ' ') {
     return value;
   }
 
-  const padding = Array(length - desiredLength)
+  const padding = Array(desiredLength - length)
     .fill(character.slice(0, 1))
     .join('');
 
