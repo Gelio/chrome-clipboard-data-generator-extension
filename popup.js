@@ -5,6 +5,7 @@ import { generateIPv6 } from './generators/generate-ipv6.js';
 import { generateTimestamp } from './generators/generate-timestamp.js';
 import { generateDate } from './generators/generate-date.js';
 import { generateTimeAndDate } from './generators/generate-time-and-date.js';
+import { generateMac } from './generators/generate-mac.js';
 
 const generators = [
   {
@@ -22,6 +23,10 @@ const generators = [
   {
     id: 'generate-cidr-ipv6',
     generate: generateCidrIPv6,
+  },
+  {
+    id: 'generate-mac',
+    generate: generateMac,
   },
   {
     id: 'generate-timestamp',
