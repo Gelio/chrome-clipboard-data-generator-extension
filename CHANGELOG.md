@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.2 (1/21/2019)
+
+- add support for generating MAC addresses
+- refactor generating decimal numbers
+- add padding for hexadecimal numbers (e.g. parts of a MAC address will always have the length of 2)
+
 ## 0.0.0.1 (1/20/2019)
 
 - create the extension
